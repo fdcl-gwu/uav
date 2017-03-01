@@ -4,3 +4,6 @@
 - git:
     local-name: motion_capture_system
     uri: https://github.com/KumarRobotics/motion_capture_system.git
+- git:
+    local-name: odroid
+    uri: git@github.com:fdcl-gwu/ROS_odroid_node.git
