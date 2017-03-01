@@ -7,3 +7,6 @@
 - git:
     local-name: odroid
     uri: git@github.com:fdcl-gwu/ROS_odroid_node.git
+- git:
+    local-name: perception
+    uri: https://github.com/fdcl-gwu/perception.git
