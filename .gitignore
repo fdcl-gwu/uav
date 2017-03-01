@@ -2,6 +2,7 @@
 # Created by https://www.gitignore.io/api/ros,python,c++,osx,windows
 devel/
 logs/
+build/
 .catkin_tools/
 src/.rosinstall.bak
 
