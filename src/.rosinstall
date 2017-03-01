@@ -1,3 +1,6 @@
 - git:
     local-name: imu_vn_100
     uri: https://github.com/KumarRobotics/imu_vn_100.git
+- git:
+    local-name: motion_capture_system
+    uri: https://github.com/KumarRobotics/motion_capture_system.git
