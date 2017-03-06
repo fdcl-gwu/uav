@@ -1,4 +1,7 @@
 - git:
+    local-name: UAV_control
+    uri: https://github.com/fdcl-gwu/UAV_control.git
+- git:
     local-name: imu_vn_100
     uri: https://github.com/KumarRobotics/imu_vn_100.git
 - git:
