@@ -1,9 +1,9 @@
 - git:
-    local-name: UAV_control
-    uri: https://github.com/fdcl-gwu/UAV_control.git
+    local-name: uav_control
+    uri: git@github.com:fdcl-gwu/uav_control.git
 - git:
-    local-name: UAV_demo
-    uri: https://github.com/fdcl-gwu/UAV_demo.git
+    local-name: uav_demo
+    uri: git@github.com:fdcl-gwu/uav_demo.git
 - git:
     local-name: imu_vn_100
     uri: https://github.com/KumarRobotics/imu_vn_100.git
@@ -14,5 +14,5 @@
     local-name: odroid
     uri: git@github.com:fdcl-gwu/ROS_odroid_node.git
 - git:
-    local-name: perception
-    uri: https://github.com/fdcl-gwu/perception.git
+    local-name: uav_perception
+    uri: git@github.com:fdcl-gwu/uav_perception.git
