@@ -1,6 +1,6 @@
 from __future__ import (absolute_import, division, print_function, unicode_literals)
 import numpy as np
-from numba import jit, int16
+# from numba import jit, int16
 from numpy.linalg import cholesky, inv, det
 import matplotlib.pyplot as plt
 import pdb
@@ -14,8 +14,10 @@ class UnscentedKalmanFilter(object):
         x: position, velocity
         R: attitude, angular velocity
         power: current, voltage, RPM
+    state vector:
+        state: [x,x_dot,R,W]
     """
-    def __init__(self, dim_x, dim_z, dt, hx=None, fx=None):
+    def __init__(self, dim_x=1, dim_z=1, dt=0.1, hx=None, fx=None):
         self._dt = dt
         self._dim_x = dim_x
         self._dim_z = dim_z
@@ -123,10 +125,10 @@ class UnscentedKalmanFilter(object):
         P=P1-K.dot(P12.T)
         return x, P
 
-    @jit(int16(int16))
-    def test(a = 3):
-        x = a
-        return x
+    # @jit(int16(int16))
+#    def test(self, a = 3):
+#        x = a
+#        return x
 
 if __name__=='__main__':
     # test(4)
