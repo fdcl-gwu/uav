@@ -164,7 +164,7 @@ void ImuVn100::Initialize() {
   ROS_INFO("New serial baudrate: %u", old_baudrate);
 
   // Idle the device for intialization
-  VnEnsure(vn100_pauseAsyncOutputs(&imu_, true));
+  // VnEnsure(vn100_pauseAsyncOutputs(&imu_, true));
 
   ROS_INFO("Fetching device info.");
   char model_number_buffer[30] = {0};
