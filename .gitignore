@@ -6,6 +6,13 @@ logs/
 build/
 .catkin_tools/
 src/.rosinstall.bak
+src/uav_control
+src/uav_demo
+src/jetson
+src/uav_perception
+src/motion_capture_system
+src/uav_estimation
+src/ROS_odroid_node
 
 ### C++ ###
 # Prerequisites

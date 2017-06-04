@@ -1,7 +1,4 @@
 - git:
-    local-name: imu_vn_100
-    uri: https://github.com/KumarRobotics/imu_vn_100.git
-- git:
     local-name: jetson
     uri: git@github.com:fdcl-gwu/jetson.git
 - git:
@@ -10,6 +7,7 @@
 - git:
     local-name: uav_control
     uri: git@github.com:fdcl-gwu/uav_control.git
+    version: comparison_odroid
 - git:
     local-name: uav_demo
     uri: git@github.com:fdcl-gwu/uav_demo.git
