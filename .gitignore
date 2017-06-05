@@ -12,7 +12,7 @@ src/jetson
 src/uav_perception
 src/motion_capture_system
 src/uav_estimation
-src/ROS_odroid_node
+src/uav_controller_cpp
 
 ### C++ ###
 # Prerequisites
