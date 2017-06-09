@@ -1,7 +1,4 @@
 - git:
-    local-name: jetson
-    uri: https://github.com:fdcl-gwu/jetson.git
-- git:
     local-name: motion_capture_system
     uri: https://github.com/KumarRobotics/motion_capture_system.git
 - git:
@@ -9,8 +6,8 @@
     uri: https://github.com:fdcl-gwu/uav_control.git
     version: master
 - git:
-    local-name: uav_controller_cpp
-    uri: https://github.com:fdcl-gwu/uav_controller_cpp.git
+    local-name: uav_geometric_controller
+    uri: https://github.com:fdcl-gwu/uav_geometric_controller.git
     version: master
 - git:
     local-name: uav_demo
